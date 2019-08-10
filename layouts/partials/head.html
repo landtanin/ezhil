@@ -7,7 +7,7 @@
 		<nav class="nav social">
 			<ul class="flat">
 				{{- range $index, $key := .Site.Params.Social -}}
-				<a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
+				<li><a href="{{ $key.url }}" title="{{ $key.name }}" rel="me"><i data-feather="{{ $key.icon }}"></i></a></li>
 				{{- end -}}
 			</ul>
 		</nav>
@@ -22,4 +22,9 @@
 			{{ end }}
 		</ul>
 	</nav>
+
+	<ul>
+			<li><a href="https://twitter.com/landtanin" rel="me">@landtanin on Twitter</a></li>
+			<li><a href="https://github.com/landtanin" rel="me">Github</a></li>
+		  </ul>
 </div>
