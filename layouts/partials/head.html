@@ -1,12 +1,11 @@
 <div class="header">
 	
-	<a class="h-card" hidden rel="me" href="https://www.tanin.dev/">Tanin Rojanapiansatith
-		<a rel="me" hidden class="u-email">landtanin@gmail.com</a>
-		<img class="u-photo" hidden src="/static/images/casual-formal-small.jpg" />
-		<p class="p-note" hidden>Software Engineer at Capital One UK</p>
-	</a>
+	<a class="h-card" hidden rel="me" href="https://www.tanin.dev/">Tanin Rojanapiansatith</a>
+	<a rel="me" class="u-email" hidden>landtanin@gmail.com</a>
+	<img class="u-photo" hidden src="/static/images/casual-formal-small.jpg" />
+	<p class="p-note" hidden>Software Engineer at Capital One UK</p>
 
-	<h1>{{ .Site.Title }}</h1>
+	<h1 class="site-title">{{ .Site.Title }}</h1>
 
 	<div class="site-description">
 		{{- if isset .Site.Params "subtitle" -}}
