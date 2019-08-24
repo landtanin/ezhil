@@ -5,12 +5,20 @@
 	<div class="container wrapper post">
 		{{ partial "head.html" . }}
 
-		<article hidden class="h-entry">
-				<div class="e-content p-name">{{ .Title }}</div>
+		<article class="h-entry">
+
+			<div class="post-header">
+					<h1 class="p-name">{{ .Title }}</h1>
+					<div class="meta">Posted at &mdash; {{ dateFormat "Jan 2, 2006" .Date }}</div>
+			</div>
+
+			<div class="e-content">
+					{{ .Content }}
+			</div>
 			  
-				<a class="u-url" href="https://www.tanin.dev/">
-				  Published <time class="dt-published">{{ .Date }}</time>
-				</a>
+			<a hidden class="u-url" href="https://www.tanin.dev/">
+				Published <time class="dt-published">{{ .Date }}</time>
+			</a>
 		</article>
 	
 		<div class="post-header">
