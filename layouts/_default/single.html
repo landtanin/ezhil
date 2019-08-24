@@ -16,9 +16,13 @@
 					{{ .Content }}
 			</div>
 			  
-			<a hidden class="u-url" href="https://www.tanin.dev/">
+			<!-- TODO: Make this link dynamic -->
+			<a hidden class="u-url" href="https://www.tanin.dev/posts/webmention-test1-2/">
 				Published <time class="dt-published">{{ .Date }}</time>
 			</a>
+
+			<a rel="author" hidden class="p-author h-card" href="https://www.tanin.dev/">Tanin Rojanapiansatith</a>
+
 		</article>
 	
 		<div class="post-header">
