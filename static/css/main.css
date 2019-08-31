@@ -4,6 +4,13 @@ body {
     color: #333;
     line-height: 1.6;
     font-size: 16px;
+
+    /* background: rgba(255, 230, 0, 0.5); */
+    /* padding: 3px 5px;
+    margin: -3px -5px;
+    line-height: 1.7;
+    border-radius: 3px; */
+    /* display:inline-block; */
 }
 
 a, a:hover {
@@ -80,7 +87,8 @@ blockquote em {
 }
 
 a,a:hover {
-    color: #a00;
+    /* link color */
+    color: #a00; 
     text-decoration: none
 }
 
@@ -181,6 +189,7 @@ ul {
     margin-top: 0;
     padding: 20px;
     background-color: transparent !important;
+	/* background-color: #FAFAFA !important; */
 }
 
 .highlight {
@@ -377,6 +386,6 @@ ul {
     }
 }
 
-code {
+/* code {
     background-color:#E0E0E0
-}
+} */
