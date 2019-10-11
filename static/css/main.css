@@ -248,8 +248,9 @@ ul {
 }
 
 .header .site-description {
+    margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
 .header .site-description nav {
