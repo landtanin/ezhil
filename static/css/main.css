@@ -387,6 +387,12 @@ ul {
     }
 }
 
+@media (max-width: 480px) {
+	body {
+		font-size: 14px;
+	}
+}
+
 /* code {
     background-color:#E0E0E0
 } */
